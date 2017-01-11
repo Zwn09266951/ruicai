@@ -1,0 +1,20 @@
+{
+  "nav": [
+    {
+      "title": "首页",
+      "link": "/home"
+    },
+    {
+      "title": "活动",
+      "link": "/active"
+    },
+    {
+      "title": "关于睿彩",
+      "link": "/about"
+    },
+    {
+      "title": "注册",
+      "link": "/registered"
+    }
+  ]
+}

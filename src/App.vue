@@ -1,28 +1,42 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
-export default {
-  name: 'app',
-  components: {
-    Hello
-  }
-}
+import 'normalize.css'
+import 'animate.css'
+import './css/default.css'
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+button, input {
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+@block warp {
+  margin: 0 auto;
+  min-width: 1200px;
 }
 </style>
